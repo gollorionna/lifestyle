@@ -1,3 +1,59 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter24pt-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter24pt-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter24pt-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter24pt-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter24pt-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 *,
 *::before,
 *::after {
@@ -27,3 +83,65 @@ ul[class],
 ol[class] {
     list-style: none;
 }
+:root {
+    --color-light: #FFFFFF;
+    --color-gray: #E1E0E8;
+    --color-black: black;
+
+    --border-radius: 7px;
+
+    --font-family-base: 'Poppins', sans-serif;
+    --font-family-title:'Montserrat', sans-serif;
+    --font-family-accent:'Inter', sans-serif;
+}
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+body{
+    font-family: var(--font-family-base);
+}
+
+.header{
+    width: 100%;
+}
+
+.button{
+    border-radius: var(--border-radius);
+    padding: 11.5px 24px;
+    max-height: 40px;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+.header__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.navigation__list{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    font-family: var(--font-family-accent);
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.navigation__item{
+    padding: 0 8px;
+    margin: 25px 0;
+}
+
+.header__button{
+    margin-right: 24px;
+    background-color: var(--color-black);
+    color: var(--color-light); 
+    border: none;
+}
+
