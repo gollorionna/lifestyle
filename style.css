@@ -13,6 +13,13 @@
     font-display: swap;
 }
 @font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
     font-family: 'Inter';
     src: url('/fonts/Inter24pt-Black.woff2') format('woff2');
     font-weight: 900;
@@ -109,7 +116,7 @@ body{
     width: 100%;
 }
 .section{
-    margin: 0 80px;
+    margin: 74px 80px;
 }
 
 .button{
@@ -118,6 +125,7 @@ body{
     max-height: 40px;
     font-family: 'Inter';
     font-weight: 600;
+    background-color: inherit;
 }
 .header__container{
     display: flex;
@@ -152,13 +160,31 @@ body{
     position: relative;
     top: 0;
 }
+.section-stay-tuned{
+    display: flex;
+    justify-content: space-between;
+    
+}
 .section-stay-tuned__left{
     font-family: 'Montserrat';
+    font-size: 52px;
 }
 
+
 .section-stay-tuned__right__paragraph{
+    display: flex;
+    flex-wrap: wrap;
     font-family: 'Poppins';
     font-weight: 400;
+    font-size: 18px;
+}
+.section-stay-tuned__right__buttons{
+    margin-top: 24px;
+}
+
+.button_explore{
+    background-color: var(--color-black);
+    color: var(--color-light);
 }
 
 
