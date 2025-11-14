@@ -108,6 +108,9 @@ body{
 .header{
     width: 100%;
 }
+.section{
+    margin: 0 80px;
+}
 
 .button{
     border-radius: var(--border-radius);
@@ -144,4 +147,19 @@ body{
     color: var(--color-light); 
     border: none;
 }
+.header__image__yoga{
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+.section-stay-tuned__left{
+    font-family: 'Montserrat';
+}
+
+.section-stay-tuned__right__paragraph{
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+
 
