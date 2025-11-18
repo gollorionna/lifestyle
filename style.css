@@ -308,18 +308,18 @@ body{
     flex-wrap: wrap;
     align-content: space-around;
 }
-.discover-first__subtitle {
+.discover__subtitle {
     font-weight: 500;
     font-size: 18px;
 }
-.discover-first__title {
+.discover__title {
     font-family: var(--font-family-title);
     font-weight: 700;
     font-size: 52px;
     margin: 23px 0;
     line-height: 65px;
 }
-.discover-first__text {
+.discover__text {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
@@ -377,10 +377,37 @@ body{
     display: flex;
     align-items: center;
 }
-.learn__more {
+.btn__learn-more {
     border: none;
     padding: 11px 16px;
     display: flex;
+}
+
+/* ----------------------------------------------DISCOVER-SECOND---------------------------------------------------- */
+
+.discover-second {
+    display: flex;
+    flex-direction: row;
+}
+.discover-second__left {
+    padding: 132px 0;
+}
+.discover__subtitle {
+}
+.discover__title {
+}
+.discover__text {
+}
+.discover-second__actions {
+    margin-top: 50px;
+    display: flex;
+}
+.learn-more {
+}
+.discover-second__right {
+    padding: 32px 0px;
+}
+.section__right_img {
 }
 
 
