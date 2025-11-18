@@ -296,7 +296,7 @@ body{
     max-width:600px
 }
 
-.section__right_img{
+.section-right__img{
     border-radius: var(--border-radius);
 }
 
@@ -481,6 +481,79 @@ body{
 .get-updates__agreement {
     font-size: 12px;
     color: var(--color-dark-gray);
+}
+
+/* ------------------------------------------------------Connect------------------------------------------------------------ */
+
+.connect {
+    display: flex;
+}
+.connect-left {
+    margin-top: 35px;
+}
+.connect__word {
+    font-weight: 500;
+    font-size: 18px;
+}
+.connect__title {
+    font-family: var(--font-family-title);
+    font-weight: 700;
+    font-size: 52px;
+    margin: 20px 188px 19px 1px;
+}
+.connect__text {
+    font-size: 18px;
+}
+.connect__blocks {
+    margin: 54px -4px -5px 2px;
+}
+.connect__email {
+}
+.email-link{
+    text-decoration: underline;
+    margin-left: -2px;
+}
+.phone-link{
+    margin-left: -2px;
+}
+.icon-title {
+    font-weight: 700;
+    font-size: 22px;
+    margin: 16px 0 12px -2px;
+}
+.email-icon{
+    width: 29px;
+    height: 23px;
+}
+.phone-icon{
+    width: 25px;
+    height: 25px;
+}
+.address-icon{
+    width: 30px;
+    height: 31px;
+}
+.icon-text {
+    margin: 0px 0px 10px -2px
+}
+.connect__phone {
+    margin-top: 52px;
+}
+.connect__office {
+    margin-top: 47px;
+}
+.connect-block{
+    display: flex;
+    flex-direction: column;
+}
+.office-action {
+    font-size: 14px;
+}
+.btn-office {
+    border: none;
+}
+.connect-right {
+    margin-top: 300px;
 }
 
 
