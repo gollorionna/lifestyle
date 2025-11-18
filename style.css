@@ -324,7 +324,7 @@ body{
     font-size: 18px;
     line-height: 28px;
 }
-.discover-first__informaton-blocks {
+.discover__informaton-blocks {
     display: flex;
     flex-wrap: wrap;
     margin-top: 82px;
@@ -376,6 +376,7 @@ body{
 .learn-more{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .btn__learn-more {
     border: none;
@@ -400,6 +401,33 @@ body{
     padding: 32px 0px;
 }
 
+/* ---------------------------------------------DISCOVER-THIRD-------------------------------------------------------------- */
+.discover-third {
+}
+.discover-third__title{
+    margin-top: -11px;
+    text-align: center;
+}
+.title-2{
+    margin: -20px 0 2px 0;
+}
+.discover__informaton-blocks {
+}
+.discover-third__block{
+    margin-top: 84px;
+}
+.information__first-block {
+}
+.title{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
+.information__second-block {
+}
+.information__third-block {
+}
 
 
 
