@@ -95,6 +95,7 @@ ol[class] {
     --color-light: #FFFFFF;
     --color-gray: #F9F8FE;
     --color-black: black;
+    --color-dark-gray: #676767;
 
     --border-radius: 7px;
 
@@ -446,6 +447,40 @@ body{
 }
 .discover-the-impact__right {
     margin-top: 58px;
+}
+
+/* ---------------------------------------------- GET-UPDATES------------------------------------------------- */
+.get-updates {
+    text-align: center;
+    margin: 41px 2px 2px 1px;
+}
+.get-updates__title {
+    font-family: var(--font-family-title);
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+.get-updates__text {
+    font-size: 18px;
+}
+.get-updates__input-block {
+    margin: 48px 4px 13px -5px;
+}
+.input {
+    font-family: var(--font-family-accent);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-dark-gray);
+    width: 374px;
+    padding: 17px;
+}
+.button-submit{
+    background-color: var(--color-black);
+    color: var(--color-light);
+}
+.get-updates__agreement {
+    font-size: 12px;
+    color: var(--color-dark-gray);
 }
 
 
