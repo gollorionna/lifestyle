@@ -402,8 +402,6 @@ body{
 }
 
 /* ---------------------------------------------DISCOVER-THIRD-------------------------------------------------------------- */
-.discover-third {
-}
 .discover-third__title{
     margin-top: -11px;
     text-align: center;
@@ -411,12 +409,8 @@ body{
 .title-2{
     margin: -20px 0 2px 0;
 }
-.discover__informaton-blocks {
-}
 .discover-third__block{
     margin-top: 84px;
-}
-.information__first-block {
 }
 .title{
     text-align: center;
@@ -424,10 +418,36 @@ body{
 .text{
     text-align: center;
 }
-.information__second-block {
+
+/* --------------------------------------------DISCOVER-THE-IMPACT------------------------------------------------ */
+
+.discover-the-impact {
+    display: flex;
 }
-.information__third-block {
+.discover-the-impact__left {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
 }
+.percent-blocks {
+    display: flex;
+    margin: 44px 25px 49px 0px;
+}
+.percent-blocks__first-block {
+    margin: 0px 26px 0px 1px;
+}
+.fifty-percent {
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 11px;
+}
+.discover-the-impact__actions {
+    display: flex;
+}
+.discover-the-impact__right {
+    margin-top: 58px;
+}
+
 
 
 
