@@ -160,6 +160,7 @@ body{
 }
 .header__image__yoga{
     width: 100%;
+    height: 100%;
 }
 
 /* ----------------------------------------------SECTION-STAY-TUNED-------------------------------------------------------------------- */
@@ -337,8 +338,6 @@ body{
 }
 .block__img {
     border-radius: var(--border-radius);
-    max-width: 395px;
-    max-height: 222px;
     margin-bottom: 19px;
 }
 .block__title {
@@ -551,7 +550,7 @@ body{
     display: flex;
 }
 .footer-left{
-    max-width: 599px;
+    max-width: 601px;
 }
 .footer-left__title {
     font-family: var(--font-family-title);
