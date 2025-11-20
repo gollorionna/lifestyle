@@ -115,7 +115,7 @@ body{
     border-radius: var(--border-radius);
     padding: 10px 26px;
     max-height: 40px;
-    font-family: 'Inter';
+    font-family: var(--font-family-accent);
     font-weight: 600;
     background-color: inherit;
 }
@@ -170,14 +170,14 @@ body{
     
 }
 .section-stay-tuned__left{
-    font-family: 'Montserrat';
+    font-family: var(--font-family-title);
     font-size: 53px;
 }
 .section-stay-tuned__right{
     padding: 0 54px;
 }
 .section-stay-tuned__right__paragraph{
-    font-family: 'Poppins';
+    font-family: var(--font-family-base);
     font-weight: 400;
     font-size: 18px;
 }
@@ -188,7 +188,7 @@ body{
 .button_explore{
     background-color: var(--color-black);
     color: var(--color-light);
-        margin-right: 8px;
+    margin-right: 8px;
 }
 
 .wrapper-gray{
