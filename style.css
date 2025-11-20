@@ -214,7 +214,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 28px 0;
+    padding: 16px 0;
 }
 
 .section__left{
@@ -303,7 +303,7 @@ body{
 /* ---------------------------------------------- DISCOVER-FIRST------------------------------------------------------------------- */
 
 .discover-first {
-    padding: 25px 0;
+    padding: 49px 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -392,26 +392,28 @@ body{
     flex-direction: row;
 }
 .discover-second__left {
-    padding: 132px 0;
+    padding: 108px 0;
 }
 .discover-second__actions {
     margin-top: 50px;
     display: flex;
 }
 .discover-second__right {
-    padding: 32px 0px;
+    padding: 10px 0px;
 }
 
 /* ---------------------------------------------DISCOVER-THIRD-------------------------------------------------------------- */
+.discover-third{
+    padding: 9px 0px;
+}
 .discover-third__title{
-    margin-top: -11px;
     text-align: center;
 }
 .title-2{
     margin: -20px 0 2px 0;
 }
 .discover-third__block{
-    margin-top: 84px;
+    margin-top: 83px;
 }
 .title{
     text-align: center;
@@ -452,7 +454,7 @@ body{
 /* ---------------------------------------------- GET-UPDATES------------------------------------------------- */
 .get-updates {
     text-align: center;
-    margin: 41px 2px 2px 1px;
+    margin: 36px 2px 2px 1px;
 }
 .get-updates__title {
     font-family: var(--font-family-title);
@@ -559,7 +561,7 @@ body{
 
 /* -------------------------------------------------------Footer----------------------------------------------------- */
 .footer {
-    margin: 50px 81px;
+    margin: 47px 81px;
     display: flex;
 }
 .footer-left{
