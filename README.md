@@ -6,7 +6,7 @@ This project was created as part of a web development internship. It includes pr
 1. Clone repository:
    git clone [https://gollorionna.github.io/lifestyle/](https://github.com/gollorionna/lifestyle.git)
 2. Navigate into the project folder:
-   cd livestyle
+   cd lifestyle
 3. Open index.html directly in your browser.
 
 ## Technologies Used 
