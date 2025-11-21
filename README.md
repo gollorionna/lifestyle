@@ -13,7 +13,7 @@ This project was created as part of a web development internship. It includes pr
 *HTML5
 *CSS3 (Flexbox)
 
-##Deploy:
+##Deploy
 https://gollorionna.github.io/lifestyle/
 
 ##Checks:
