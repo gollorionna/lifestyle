@@ -10,13 +10,13 @@ This project was created as part of a web development internship. It includes pr
 3. Open index.html directly in your browser.
 
 ## Technologies Used 
-*HTML5
-*CSS3 (Flexbox)
+* HTML5
+* CSS3 (Flexbox)
 
-##Deploy
+## Deploy
 https://gollorionna.github.io/lifestyle/
 
-##Checks:
+## Checks:
 
 <img width="1173" height="688" alt="Lighthouse chrome 2" src="https://github.com/user-attachments/assets/ca834ccc-8082-481f-b441-c16f002fc9ca" />
 
