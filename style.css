@@ -199,9 +199,8 @@ body{
 
 .section-revolutionize{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    padding: 16px 0;
+    padding: 29px 0;
 }
 
 .section__left{
@@ -235,6 +234,10 @@ body{
 .section-left__blocks{
     display: flex;
     margin: 54px 0;
+}
+
+.section-left__revolutionize__block-first{
+    margin-right: 15px;
 }
 
 .block-first,
@@ -290,10 +293,9 @@ body{
 /* ---------------------------------------------- DISCOVER-FIRST------------------------------------------------------------------- */
 
 .discover-first {
-    padding: 49px 0;
+    padding: 23px 0;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-content: space-around;
 }
 .discover__subtitle {
@@ -314,7 +316,6 @@ body{
 }
 .discover__informaton-blocks {
     display: flex;
-    flex-wrap: wrap;
     margin-top: 82px;
     object-fit: cover;
     object-position: center;
@@ -375,21 +376,23 @@ body{
 .discover-second {
     display: flex;
     flex-direction: row;
+    padding-top: 26px;
 }
 .discover-second__left {
     padding: 108px 0;
+    max-width: 599px;
 }
 .discover-second__actions {
     margin-top: 50px;
     display: flex;
 }
 .discover-second__right {
-    padding: 10px 0px;
+    padding: 10px 0px 0px 79px
 }
 
 /* ---------------------------------------------DISCOVER-THIRD-------------------------------------------------------------- */
 .discover-third{
-    padding: 9px 0px;
+    padding: 14px 0px;
 }
 .discover-third__title{
     text-align: center;
@@ -411,11 +414,13 @@ body{
 
 .discover-the-impact {
     display: flex;
+    justify-content: center;
+    padding: 3px;
 }
 .discover-the-impact__left {
-    margin-top: 17px;
     display: flex;
     flex-direction: column;
+    max-width: 599px;
 }
 .percent-blocks {
     display: flex;
@@ -433,7 +438,7 @@ body{
     display: flex;
 }
 .discover-the-impact__right {
-    margin-top: 58px;
+    margin: 43px -6px 9px 80px;
 }
 
 /* ---------------------------------------------- GET-UPDATES------------------------------------------------- */
@@ -458,7 +463,7 @@ body{
     font-size: 14px;
     font-weight: 400;
     color: var(--color-dark-gray);
-    width: 374px;
+    max-width: 374px;
     padding: 17px;
 }
 .button-submit{
@@ -573,7 +578,7 @@ body{
     font-size: 15px;
     font-weight: 400;
     color: var(--color-dark-gray);
-    width: 466px;
+    max-width: 466px;
     margin-right: 10px;
     padding: 12px;
 }
@@ -619,6 +624,256 @@ body{
 }
 
 
+@media screen and (min-width: 1450px) {
+    .section-stay-tuned{
+        justify-content: space-around;
+    }
+    .section-stay-tuned__left{
+        margin-left: 98px
+    }
+    .section-stay-tuned__right{
+        max-width: 889px;
+    }
+    .section-revolutionize{
+        justify-content: space-evenly;
+    }
+    .discover__subtitle {
+        align-self: flex-start;
+    }
+    .discover-first{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .discover__text {
+        max-width: 1600px;
+    }
+    .discover-second {
+        justify-content: space-evenly;
+    }
+    .discover-third {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .discover-the-impact {
+        justify-content: space-evenly;
+    }
+    .discover-the-impact__left {
+        max-width: 599px;
+    }
+    .connect {
+        justify-content: space-evenly;
+    }
+    .footer {
+        justify-content: space-evenly;
+    }
+}
 
+@media screen and (max-width: 1370px) {
+    .section {
+    margin: 0px 49px;
+    }
+    .information__first-block,
+    .information__second-block{
+        margin-right: 10px;
+    }
+    .footer-right {
+        gap: 1.4rem;
+    }
+    .discover-second {
+        align-items: center;
+    }
+    .discover__informaton-blocks {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .discover-the-impact__right {
+        margin: 43px -36px 9px 0px;
+    }
+    .discover-first__actions {
+        justify-content: center;
+    }
+    .connect-right {
+        margin-top: 67px;
+    }
+    .connect{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        padding: 40px 0;
+    }
+    .section-stay-tuned__left { 
+        font-size: 45px; 
+        margin-right: 60px; 
+    }       
+    .section-stay-tuned__right { 
+        padding: 0;
+    }  
+    .section-revolutionize{
+        flex-wrap: wrap;
+    }
+    .section-left__title{
+        text-align: center; 
+    }
+    .section-left__title,
+    .section-left__paragraph {
+        max-width: 100%;
+    }
+    .section-left__blocks {
+        justify-content: space-around;
+    }
+    .block-buttons {
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .section__left {
+        margin-right: 0;
+    }
+    .discover__informaton-blocks {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .information__first-block, 
+    .information__second-block {
+        margin-bottom: 27px;
+    }
+    .discover-first__actions {
+        justify-content: center;
+    }
+    .discover-second{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .discover-second__left {
+        padding: 40px 0;
+        max-width: none;
+    }
+    .discover-second__right {
+        padding: 0;
+    }
+    .discover-second__actions {
+        justify-content: center;
+    }
+    
+    .discover-the-impact{
+        flex-wrap: wrap;
+    }
+    .discover__title {
+        text-align: center;
+    }
+    .discover-the-impact__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: fit-content;
+        width: 100%;
+    }
+    .percent-blocks__first-block {
+        margin: 0px 91px 0px 61px;
+    }
+    .connect{
+        align-items: center;
+    }
+    .connect-right{
+        flex-wrap: wrap;
+    }
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-right {
+        gap: 7.4rem;
+        margin: 42px 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-right__img {
+        width: 100%;
+        align-self: center;
+    }
+    .discover-second__right {
+        padding-left: 35px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .section {
+        margin: 0px 10px;
+    }
+    .header__container{
+        justify-content: center;
+    }
+    .navigation{
+        margin-left: 10px;
+    }
+    .navigation__item{
+        padding: 0;
+        margin: 10px 0;
+    }
+    .header__image__yoga{
+        margin-top: 30px;
+    }
+    .discover__title,
+    .get-updates__title,
+    .connect__title,
+    .footer-left__title,
+    .section-stay-tuned__left,
+    .section-left__title{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .discover__informaton-blocks{
+        margin-left: 60px;
+    }
+    .section-right__img {
+        width: 90%;
+    }
+    .block__img {
+        width: 80%;
+    }
+    
+    .connect__title {
+        margin: 0;
+    }
+    .footer {
+        margin: 0 45px;
+    }
+    .footer-right {
+        gap: 2.4rem;
+        margin: 42px 0 0 24px;
+    }
+    .column__title {
+        margin-bottom: 15px;
+    }
+    .column-follow-us {
+        margin-top: 0; 
+    }
+    .follow-us__block {
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .percent-blocks__first-block {
+        margin: 0px 65px 0px 30px;
+    }
+    .fifty-percent{
+        font-size: 45px;
+    }
+    .footer-right {
+        flex-direction: column;
+    }
+}
 
 
