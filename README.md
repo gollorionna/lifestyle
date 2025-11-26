@@ -16,6 +16,15 @@ This project was created as part of a web development internship. It includes pr
 ## Deploy
 https://gollorionna.github.io/lifestyle/
 
+## Pixel Perfect
+<img width="1796" height="921" alt="pixel perfect section" src="https://github.com/user-attachments/assets/7c1f9785-d489-4a1a-874b-38aa959a256d" />
+
+<img width="1798" height="560" alt="pixel perfect footer" src="https://github.com/user-attachments/assets/a2936b7f-9502-4db7-ae38-97e1dc75ef73" />
+
+<img width="897" height="416" alt="pixel perfect header" src="https://github.com/user-attachments/assets/1b44e9cf-f969-4475-9f68-f242cdeaf8bb" />
+
+
+
 ## Checks:
 
 <img width="1173" height="688" alt="Lighthouse chrome 2" src="https://github.com/user-attachments/assets/ca834ccc-8082-481f-b441-c16f002fc9ca" />
