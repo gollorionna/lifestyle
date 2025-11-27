@@ -13,13 +13,20 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__container">
+        <div class="header__container" id="header_link">
+            <input id="burger-toggle" type="checkbox">
+            <label for="burger-toggle" class="burger-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label> 
             <nav class="navigation">
+            
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link">Discover LifeBlend</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Explore</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Inspiration</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Contact us</a></li>
+                <li class="navigation__item"><a href="#header_link" class="navigation__link">Discover LifeBlend</a></li>
+                <li class="navigation__item"><a href="#explore" class="navigation__link">Explore</a></li>
+                <li class="navigation__item"><a href="#inspiration_link" class="navigation__link">Inspiration</a></li>
+                <li class="navigation__item"><a href="#connect_link" class="navigation__link contact_us_link">Contact us</a></li>
             </ul>
             </nav>
             <button class="button header__button">Contact us</button>
@@ -31,10 +38,10 @@
     </header>
     <main class="main">
         <div class="wrapper wrapper-white">
-        <section class="section section-stay-tuned">
-        <h2 class="section-stay-tuned__left">
-            Stay tuned,<br>stay healthy
-        </h2>
+        <section class="section section-stay-tuned" id="explore">
+        <h1 class="section-title section-stay-tuned__left">
+            Stay tuned, stay healthy
+        </h1>
         <div class="section-stay-tuned__right">
             <div class="section-stay-tuned__right__paragraph">Experience a comprehensive blend of content and resources to enhance and inspire every facet of your lifestyle.</div>
             <div class="section-stay-tuned__right__buttons">
@@ -126,7 +133,7 @@
         </section>
     </div>
     <div class="wrapper wrapper-white">
-        <section class="section discover-third">
+        <section class="section discover-third" id="inspiration_link">
             <div class="discover-third__title">
                 <h2 class="section-title discover__title">Discover a World of Inspiration and Resources on LifeBlend Hub</h2>
             </div>
@@ -195,7 +202,7 @@
             <span class="get-updates__text">Subscribe to our newsletter for regular updates on lifestyle trends and tips.</span>
             <div class="get-updates__input-block">
                 <label for="get-updates__email"></label>
-                <input type="email" name="get-updates__email" id="get-updates__email" class="button input" value="Enter your email" aria-label="email">
+                <input type="email" name="get-updates__email" id="get-updates__email" class="input" value="Enter your email" aria-label="email">
                 <input type="submit" value="Sign in" class="button button-submit">
             </div>
             <span class="get-updates__agreement">
@@ -204,26 +211,26 @@
         </section>
     </div>
     <div class="wrapper wrapper-gray">
-        <section class="section connect">
+        <section class="section connect" id="connect_link">
             <div class="connect-left">
                 <span class="connect__word">Connect</span>
                 <h2 class="section-title connect__title">Contact LifeBlend</h2>
                 <span class="connect__text">Have a question or need assistance? We're here to help!</span>
                 <div class="connect__blocks">
                     <div class="connect-block connect__email">
-                        <img src="icons/Union.png" alt="email" class="email-icon">
+                        <img src="icons/Union.svg" alt="email" class="email-icon">
                         <h2 class="icon-title">Email</h2>
                         <span class="icon-text">Send us an email</span>
                         <a href="mailto:hello@lifeblendhub.com" class="email-link">hello@lifeblendhub.com</a>
                     </div>
                     <div class="connect-block connect__phone">
-                        <img src="icons/Phone.png" alt="phone" class="phone-icon">
+                        <img src="icons/Phone.svg" alt="phone" class="phone-icon">
                         <h2 class="icon-title">Phone</h2>
                         <span class="icon-text">Give us a call</span>
                         <a href="tel:+15551234567" class="phone-link">+1 (555) 123-4567</a>
                     </div>
                     <div class="connect-block connect__office">
-                        <img src="icons/Geo.png" alt="address" class="address-icon">
+                        <img src="icons/Geo.svg" alt="address" class="address-icon">
                         <h2 class="icon-title">Office</h2>
                         <span class="icon-text">123 Main St, Anytown, USA</span>
                         <div class="office-action">
@@ -234,7 +241,7 @@
                 </div>
             </div>
             <div class="connect-right">
-                <img src="images/section_tennis_ball.webp" alt="tennis ball" class="section-right__img">
+                <img src="images/section_tennis_ball.webp" alt="tennis ball" class="section-right__img connect_img">
             </div>
         </section>
     </div>
@@ -242,11 +249,11 @@
     <div class="wrapper wrapper-gray">
         <footer class="footer">
             <div class="footer-left">
-                <h1 class="section-title footer-left__title">Logo</h1>
-                <h1 class="footer-left__text">Stay up to date on the latest features and releases by joining our newsletter.</h1>
+                <h2 class="section-title footer-left__title">Logo</h2>
+                <p class="footer-left__text">Stay up to date on the latest features and releases by joining our newsletter.</p>
                 <div class="footer-left__input-block">
                     <label for="email"></label>
-                    <input type="email" name="email" id="email" class="button footer-input" value="Your email" aria-label="email">
+                    <input type="email" name="email" id="email" class="footer-input input" value="Your email" aria-label="email">
                     <input type="submit" value="Subscribe" class="button button-submit footer__button-submit">
                 </div>
                 <span class="footer-left__agreement">By subscribing, you agree to our Privacy Policy and consent to receive updates from our company.</span>
@@ -272,26 +279,26 @@
                     <h2 class="column__title follow-us__title">Follow us</h2>
                     <div class="follow-us__block">
                         <a href="#" class="footer__link">
-                            <img src="icons/jam_facebook-circle.png" alt="facebook logo" class="logo">
+                            <img src="icons/jam_facebook-circle.svg" alt="facebook logo" class="logo">
                             <span class="follow-us__text">Facebook</span>
                         </a>
                     </div>
                     <div class="follow-us__block">
                         <a href="#" class="footer__link">
-                            <img src="icons/mdi_instagram.png" alt="instagram logo" class="logo">
+                            <img src="icons/mdi_instagram.svg" alt="instagram logo" class="logo">
                             <span class="follow-us__text">instagram</span>
                         </a>
                         
                     </div>
                     <div class="follow-us__block">
                         <a href="#" class="footer__link">
-                            <img src="icons/mingcute_linkedin-line.png" alt="linkedin logo" class="logo">
+                            <img src="icons/mingcute_linkedin-line.svg" alt="linkedin logo" class="logo">
                             <span class="follow-us__text">Linkedin</span>
                         </a>
                     </div>
                     <div class="follow-us__block">
                         <a href="#" class="footer__link">
-                            <img src="icons/line-md_youtube.png" alt="facebook logo" class="logo">
+                            <img src="icons/line-md_youtube.svg" alt="facebook logo" class="logo">
                             <span class="follow-us__text">Youtube</span>
                         </a>
                     </div>
