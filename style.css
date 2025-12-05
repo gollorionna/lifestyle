@@ -866,7 +866,6 @@ a:hover{
     .information__third-block {
         display: flex;
         flex-direction: column;
-        max-width: 277px;
     }
     .footer-left__text { 
         font-size: 17.9px; 
@@ -876,7 +875,6 @@ a:hover{
         max-width: 345px; 
     }  
     .footer-right { 
-        gap: 0.4rem; 
         margin: 42px 0 0 24px;
         flex-wrap: wrap; 
     }
