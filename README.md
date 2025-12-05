@@ -17,13 +17,19 @@ This project was created as part of a web development internship. It includes pr
 https://gollorionna.github.io/lifestyle/
 
 ## Pixel Perfect
-<img width="1796" height="921" alt="pixel perfect section" src="https://github.com/user-attachments/assets/7c1f9785-d489-4a1a-874b-38aa959a256d" />
+<img width="1802" height="920" alt="header-inversion-pixerPerfect" src="https://github.com/user-attachments/assets/e8ae7d16-9eb3-41bc-abce-665ac87cefb0" />
 
-<img width="1798" height="560" alt="pixel perfect footer" src="https://github.com/user-attachments/assets/a2936b7f-9502-4db7-ae38-97e1dc75ef73" />
+<img width="1786" height="848" alt="section-revolutionize-inversion" src="https://github.com/user-attachments/assets/8a08861e-29ff-4319-9077-063938efef13" />
 
-<img width="897" height="416" alt="pixel perfect header" src="https://github.com/user-attachments/assets/1b44e9cf-f969-4475-9f68-f242cdeaf8bb" />
+<img width="1785" height="848" alt="section-discover-second-inversion" src="https://github.com/user-attachments/assets/944b0da4-0c01-4806-bd50-aab4ed72a915" />
 
+<img width="1786" height="831" alt="section-discover-third-inversion" src="https://github.com/user-attachments/assets/8b844a85-523d-4035-8a78-a112b5f5e86c" />
 
+<img width="1792" height="390" alt="section-stay-tuned-inversion" src="https://github.com/user-attachments/assets/3d12d827-37d0-411f-bb47-6d9c21d29eca" />
+
+<img width="1797" height="842" alt="section-contact-inversion" src="https://github.com/user-attachments/assets/a00e832e-d6c5-45b9-a39f-02e5b411c268" />
+
+<img width="1797" height="557" alt="footer-inversion" src="https://github.com/user-attachments/assets/ef184320-f1a6-43b3-909d-a5c1127e9aa7" />
 
 ## Checks:
 
